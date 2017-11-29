@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{9084DF9B-F57E-3ED9-CB6C-49F22704743E}|Unit Tests">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\move\moveDown.cs">
+    <Files>
+      <File FileName="..\Anything\Assets\Scripts\CharControls.cs" Line="19" Column="30" />
+      <File FileName="Assets\scripts\move.cs" Line="7" Column="9" />
+      <File FileName="Assets\scripts\move\moveRight.cs" Line="20" Column="20" />
+      <File FileName="Assets\scripts\move\moveLeft.cs" Line="20" Column="20" />
+      <File FileName="Assets\scripts\move\moveUp.cs" Line="20" Column="11" />
+      <File FileName="Assets\scripts\move\moveDown.cs" Line="14" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>
