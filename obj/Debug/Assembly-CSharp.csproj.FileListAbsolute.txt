@@ -29,3 +29,34 @@ E:\Unity\game client\Temp\bin\Debug\UnityEngine.HoloLens.xml
 E:\Unity\game client\Temp\bin\Debug\UnityEngine.VR.xml
 E:\Unity\game client\obj\Debug\Assembly-CSharp.dll
 E:\Unity\game client\obj\Debug\Assembly-CSharp.pdb
+E:\Unity\gameClient\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\Unity\gameClient\obj\Debug\Assembly-CSharp.dll
+E:\Unity\gameClient\obj\Debug\Assembly-CSharp.pdb
+E:\Unity\gameClient\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Unity\gameClient\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Unity\gameClient\Temp\bin\Debug\Mono.Cecil.dll
+E:\Unity\gameClient\Temp\bin\Debug\nunit.framework.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEditor.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.Analytics.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.HoloLens.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.TestRunner.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.VR.dll
+E:\Unity\gameClient\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\Unity\gameClient\Temp\bin\Debug\Unity.DataContract.dll
+E:\Unity\gameClient\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Unity\gameClient\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\Unity\gameClient\Temp\bin\Debug\Unity.CecilTools.dll
+E:\Unity\gameClient\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\Unity\gameClient\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEditor.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.UI.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.TestRunner.xml
+E:\Unity\gameClient\Temp\bin\Debug\nunit.framework.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.Analytics.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.HoloLens.xml
+E:\Unity\gameClient\Temp\bin\Debug\UnityEngine.VR.xml

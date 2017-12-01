@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9084DF9B-F57E-3ED9-CB6C-49F22704743E}</ProjectGuid>
+    <ProjectGuid>{40D23503-5311-362A-D272-48CB19235AE8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\board\Board.cs" />
+     <Compile Include="Assets\scripts\board\GameScript.cs" />
      <Compile Include="Assets\scripts\move.cs" />
      <Compile Include="Assets\scripts\move\moveDown.cs" />
      <Compile Include="Assets\scripts\move\moveLeft.cs" />
