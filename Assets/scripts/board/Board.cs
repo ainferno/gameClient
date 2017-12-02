@@ -2,16 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace BoardCreation
+namespace BoardEngine
 {
 	public class Board : MonoBehaviour
 	{
 		GameObject[] tiles = new GameObject[1];
 		int[] tileId = new int[1];
 		int[,] pos = new int[8,8];
-		public Board(GameObject[] setOfTiles)
+		int playerOneId, playerTwoId;
+		bool turn;
+		public Board(GameObject[] setOfTiles, int[] playerIds)
 		{
 			int id = 0;
+			playerOneId = playerIds[0];
+			playerTwoId = playerIds[1];
+			turn = true;
 			foreach (GameObject tile in setOfTiles) {
 				tiles[id] = tile;
 				tileId[id] = id;
@@ -31,6 +36,17 @@ namespace BoardCreation
 			{
 				Destroy(tile);
 			}
+		}
+		public int getCurPlayerId()
+		{
+			if (turn)
+				return playerOneId;
+			else
+				return playerTwoId;
+		}
+		public void changeTurn()
+		{
+			turn = !turn;
 		}
 	}
 }
