@@ -9,14 +9,14 @@ namespace BoardEngine
 		GameObject[] tiles = new GameObject[1];
 		int[] tileId = new int[1];
 		int[,] pos = new int[8,8];
-		int playerOneId, playerTwoId;
-		bool turn;
+		Queue<int> characterIds = new Queue<int>();
 		public Board(GameObject[] setOfTiles, int[] playerIds)
 		{
 			int id = 0;
-			playerOneId = playerIds[0];
-			playerTwoId = playerIds[1];
-			turn = true;
+
+			foreach (int charId in playerIds) {
+				characterIds.Enqueue(charId);
+			}
 			foreach (GameObject tile in setOfTiles) {
 				tiles[id] = tile;
 				tileId[id] = id;
@@ -37,16 +37,14 @@ namespace BoardEngine
 				Destroy(tile);
 			}
 		}
-		public int getCurPlayerId()
+		public int getCurCharacterId()
 		{
-			if (turn)
-				return playerOneId;
-			else
-				return playerTwoId;
+			return characterIds.Peek();
 		}
 		public void changeTurn()
 		{
-			turn = !turn;
+			int curId = characterIds.Dequeue();
+			characterIds.Enqueue(curId);
 		}
 	}
 }

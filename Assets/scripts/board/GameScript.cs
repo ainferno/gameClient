@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using BoardEngine;
+using CharacterEngine;
 
 public class GameScript : MonoBehaviour
 {
 	public GameObject[] tile;
 	Board brd;
 	int[] PlayerIds = new int[2];
-	private double timeForTurn = 150;
+	private double timeForTurn = 30;
 	private double timeLeft;
+	Queue<Character> chars = new Queue<Character>();
 
 	// Use this for initialization
 	void Start()
@@ -26,12 +28,12 @@ public class GameScript : MonoBehaviour
 		timeLeft -= Time.deltaTime;
 		if (timeLeft <= 0)
 			EndTurn();
-		Debug.Log(brd.getCurPlayerId());
+		Debug.Log(brd.getCurCharacterId());
 		//Debug.Log(timeLeft);
 	}
 	public bool MyTurn(int id)
 	{
-		return brd.getCurPlayerId() == id;
+		return brd.getCurCharacterId() == id;
 	}
 	public void EndTurn()
 	{
